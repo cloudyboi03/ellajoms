@@ -1,0 +1,10 @@
+function answer(response) {
+  const messageElement = document.getElementById('responseMessage');
+  if (response === 'yes') {
+    messageElement.textContent = "Yay! I'm so happy! 💖";
+    messageElement.style.color = '#4caf50';
+  } else {
+    messageElement.textContent = "Aww, maybe next time. 💔";
+    messageElement.style.color = '#f44336';
+  }
+}
